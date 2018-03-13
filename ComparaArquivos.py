@@ -11,4 +11,4 @@ for root, dirs, files in os.walk('.'):
                     if not any(line in s for s in dwg):  # Verifica se há alguma string no arquivo txt que não está contida na
                         # variável dwg (lista)
                         print(line + ' não encontrado.')  # Imprime a mensagem de arquivo não encontrado, caso positivo.
-input()
+input('Fim da execução')
